@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Video with Text Overlay</title>
+    <style>
+      
+     
+
+        .text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            font-size: 2em;
+        
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="video-container">
+        <source src="./test6.webm" type="video/mp4">
+   
+    </video>
+
+
+    <div class="text-overlay">
+        <h1>Your Text Goes Here</h1>
+        
+    </div>
+</body>
+</html>
